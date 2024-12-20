@@ -87,6 +87,9 @@ After the load balancer deployment, the website became accessible via the fronte
 ![loadb](https://github.com/user-attachments/assets/05dafe55-7dcf-4ab4-9094-d36165472326)
 
 * ### **Home Page**
+![home](https://github.com/user-attachments/assets/a4c24f43-7237-4ace-a572-665457d92b83)
+
+* ### **About Us**
 
 
 
