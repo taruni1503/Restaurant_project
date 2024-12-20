@@ -31,12 +31,12 @@ Restaurant: A website dedicated to serving healthy, high-quality, and affordable
 The frontend of Restaurant was uploaded to a public GitHub repository.
 
 ### **3. Azure Deployment Using ARM Templates**
-**Resource Group:** Created using Azure CLI to hold all the resources.
-**Virtual Network (VNet):** Set up using an ARM template, which included two subnets for distributing the VMs.
-**Network Security Group (NSG):** Applied inbound rules to allow traffic on ports 22 (SSH) and 80 (HTTP).
+* **Resource Group:** Created using Azure CLI to hold all the resources.
+* **Virtual Network (VNet):** Set up using an ARM template, which included two subnets for distributing the VMs.
+* **Network Security Group (NSG):** Applied inbound rules to allow traffic on ports 22 (SSH) and 80 (HTTP).
 
 ### **4. Azure Deployment Using CLI**
-**Virtual Machines:** Created using Azure CLI by adding custom Script Extension to clone the website from GitHub and Networking settings to connect to the VNet and assigned Subnet.
+* **Virtual Machines:** Created using Azure CLI by adding custom Script Extension to clone the website from GitHub and Networking settings to connect to the VNet and assigned Subnet.
 
 Custom Script:
 ```
@@ -47,7 +47,7 @@ cd /tmp && git clone https://github.com/taruni1503/Restaurant_project.git mysite
 sudo rm -rf /var/www/html/index.nginx-debian.html
 sudo cp -r /tmp/mysitee/* /var/www/html/
 ```
-**Load Balancer:** Created using Azure CLI to distributed the traffic between two VMs to ensure high availability.
+* **Load Balancer:** Created using Azure CLI to distributed the traffic between two VMs to ensure high availability.
 
 ### **5. Load Balancer Configuration**
 * **Load Balancer:** Configured to distribute traffic between VM 1 and VM 2.
