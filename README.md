@@ -77,6 +77,10 @@ After the load balancer deployment, the website became accessible via the fronte
 ![vm1 vm2 deployment](https://github.com/user-attachments/assets/3f452d08-b1cb-466b-993f-e24b2c958afa)
 
 * ### **VM1 Creation**
+![vm1 creation](https://github.com/user-attachments/assets/c233bded-930b-4070-bb65-03ea759e5f89)
+
+* ### **VM2 Creation**
+
 
   
 
