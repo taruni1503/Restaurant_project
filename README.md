@@ -71,6 +71,9 @@ After the load balancer deployment, the website became accessible via the fronte
 ![vnet creation screenshot](https://github.com/user-attachments/assets/e784ea8e-e028-45ec-8197-bf2946412302)
 
 * ### **NSG Creation**
+![nsg creation](https://github.com/user-attachments/assets/a4284dac-2021-4d74-99d1-c9e100a724f7)
+
+* ### **VM1 and VM2 Deployment**
 
   
 
