@@ -59,6 +59,11 @@ sudo cp -r /tmp/mysitee/* /var/www/html/
 ### **6. Testing and Accessing the Website**
 After the load balancer deployment, the website became accessible via the frontend IP of the load balancer. Users can interact with Restaurant Services.
 
+## **Screenshots:**
+
+* ### **Resource Group Creation**
+
+
 ## **Conclusion**
 The Green Fork restaurant website successfully bridges the gap between affordability, quality, and healthy dining. By emphasizing wholesome meals without sacrificing taste, quantity, or cost, the platform caters to health-conscious individuals who value both nutrition and budget-friendly options. With user-friendly features such as online ordering, menu transparency, and sustainability highlights, the website enhances customer engagement and satisfaction.  
 
