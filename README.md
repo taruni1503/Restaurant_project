@@ -105,7 +105,7 @@ After the load balancer deployment, the website became accessible via the fronte
 ![contact](https://github.com/user-attachments/assets/e881e804-f971-4d14-a8a7-927cc07d2c77)
 
 * ## **Website Link**: https://jazzy-treacle-43dd86.netlify.app/
-* ## **Video Link**: [Watch Video](https://drive.google.com/file/d/https://drive.google.com/file/d/1Jn4seyJa953l_8mFIwvRXQvdveavM9id/view?usp=sharing/view?usp=sharing)
+* ## **Video Link**: [Watch Video]https://drive.google.com/file/d/1Jn4seyJa953l_8mFIwvRXQvdveavM9id/view?usp=sharing
 
 
 ## **Conclusion**
