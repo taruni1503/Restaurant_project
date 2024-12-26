@@ -1,0 +1,2 @@
+//For creating a Resource group
+az group create --name 
