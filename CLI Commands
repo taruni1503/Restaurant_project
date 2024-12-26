@@ -1,2 +1,21 @@
 //For creating a Resource group
-az group create --name 
+az group create --name progrg --location centralindia.
+
+//For creating Deployment Group
+az deployment group create --name Deploygroup --resource-group progrg --template-file project.json
+
+//For creating Virtual Machine 
+az vm create --name VM1 --resource-group progrg --image Ubuntu2404 --vnet-name myVnet --subnet subnet1 --admin-username taruni
+--admin-password ******* --size Standard_B1s --nsg myNSG --storage-sku StandardSSD_LRS  --private-ip-address 10.0.1.10  --custom-data data.txt 
+
+//For creating load-balancer
+az network lb create --name mylb --resource-group progrg --sku standard --frontend-ip-name myfip --backend-pool-name mybackend --public-ip-address mypublicip 
+
+//For creating Health probe
+az network lb probe create --resource-group progrg --lb-name mylb --name myprobe --protocol tcp --port 80 --interval 5
+
+//For creating Load-Balancer rule 
+az network lb rule create --resource-group prorg --lb-name mylb --name myrule --protocol tcp --frontend-port 80  --backend-port 80 --frontend-ip-name myfip --backend-pool-name mybackend --probe-name myprobe 
+
+
+
